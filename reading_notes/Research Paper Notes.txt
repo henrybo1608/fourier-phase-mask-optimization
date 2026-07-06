@@ -1,0 +1,32 @@
+This file is my personal note while reading Professor Zhao's Research Paper.
+Paper: Uniform 2D Target Generation via Inverse-Designed Metasurfaces
+
+## What Problem Is The Paper Solving?
+
+The paper focuses on designing metasurfaces that can generate highly uniform two-dimensional intensity patterns across a desired target shape. Instead of only creating a single focal point or a simple beam shape, the goal is to generate an extended 2D light pattern with good intensity fidelity, high projection efficiency, and low non-uniformity.
+
+## Why Uniformity Matters
+
+I think that uniformity matters because many optical applications require the light intensity to be evenly distributed across a region. If the target region has bright and dark spots, the optical output may be less useful for applications such as microscopy, projection, sample illumination, or beam shaping.
+
+## Why Efficiency Matters
+
+I think efficiency measures how much of the optical energy lands inside the desired target region. A design may visually resemble the target, but if too much light leaks outside the target, the device is inefficient. The paper specifically focuses on improving projection efficiency while also reducing local intensity variation.
+
+## What Inverse Design Means Here
+
+I think inverse design means starting with the desired output pattern and then computationally finding a metasurface design that can produce it. Instead of manually choosing each structure, the design is optimized based on the target optical behavior.
+
+## Connection To My Project
+
+My project is a simplified version of this idea. I used a phase-only mask and Fourier propagation to generate target intensity patterns such as a circle, square, and ring. I used the Gerchberg-Saxton algorithm to update the phase mask so that the far-field intensity becomes closer to the target.
+
+The paper uses a much more advanced framework, including adjoint optimization, regularization for non-uniformity, FEM surrogate modeling, and FDTD verification. My project does not model real metasurface unit cells or electromagnetic behavior, but it helped me understand the basic inverse-design workflow.
+
+## What I Still Need To Learn?
+
+- How a continuous phase mask is converted into physical metasurface unit-cell geometry.
+- How adjoint optimization works in nanophotonics.
+- How FEM and FDTD simulations are used to verify optical devices.
+- How fabrication constraints affect the final metasurface design.
+- How Gaussian beam illumination changes the optimization problem.
