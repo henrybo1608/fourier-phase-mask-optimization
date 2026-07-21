@@ -6,7 +6,7 @@ The project was inspired by Prof. Yang Zhao's group work on uniform 2D target ge
 
 ## Research Motivation
 
-This project was inspired by Prof. Yang Zhao's group work on uniform 2D target generation using inverse-designed metasurfaces. Since I am still early in my undergraduate coursework, I built a simplified Fourier-optics version of the problem.
+This project was inspired by recent work on uniform 2D target generation using inverse-designed metasurfaces. Since I am still early in my undergraduate coursework, I developed a simplified Fourier-optics version of the problem.
 
 Instead of modeling real metasurface unit cells, material properties, or fabrication constraints, this project uses a phase-only mask and scalar Fourier propagation. The goal is to understand the basic inverse-design workflow: starting from a desired output intensity pattern, optimize a phase pattern that produces it in the far field.
 
