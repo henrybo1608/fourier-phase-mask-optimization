@@ -4,7 +4,7 @@ This project implements a simplified Fourier-optics phase-mask optimization simu
 
 The project was inspired by Prof. Yang Zhao's group work on uniform 2D target generation using inverse-designed metasurfaces.
 
-## Connection to Prof. Zhao's Research
+## Research Motivation
 
 This project was inspired by Prof. Yang Zhao's group work on uniform 2D target generation using inverse-designed metasurfaces. Since I am still early in my undergraduate coursework, I built a simplified Fourier-optics version of the problem.
 
